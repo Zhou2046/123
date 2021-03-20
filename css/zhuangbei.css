@@ -1,0 +1,236 @@
+body{margin:0;
+    padding:0;
+    text-align: center;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+#beijing{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(white,mediumseagreen);}
+
+
+.D1{display: inline-block;
+    background-color: white;
+    width: 80%;
+    border: 25px solid gainsboro;
+    padding: 25px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+/* 图片属性*/
+
+
+.D1 div img{display: block;
+    width: 300px;}
+
+
+
+h4,p{text-align: left;
+    text-indent: 30px;}
+
+
+#photo{width: 1215px;
+        margin: 0px;
+        padding: 0px}
+
+/*页头图片窗口*/
+#photo {
+
+    animation: switch 10s ease-out infinite;
+}
+
+#photo > img {
+    float: left;
+    width: 330px;
+    height: 255px;
+    position: -webkit-sticky;
+    top: 80px;
+    left: 1050px;
+
+}
+
+@keyframes one {
+    0%{opacity: 0}
+    20%{opacity: 100}
+    40%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes two {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 100}
+    60%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes three {
+    0%{opacity: 0}
+    40%{opacity: 0}
+    60%{opacity: 100}
+    80%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes frou {
+    0%{opacity: 0}
+    60%{opacity: 0}
+    80%{opacity: 100}
+    100%{opacity: 0}
+}
+
+
+
+
+
+#A,#B,#C,#D {
+    font-size: 100px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#A{animation: one 9s infinite;}
+#B{animation: two 9s infinite;}
+#C{animation: three 9s infinite;}
+#D{animation: frou 9s infinite;}
+
+
+/*图片廊部分*/
+div.img {
+    margin: 0px 50px 20px;
+    border: 0px solid white;
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+div.img:hover {
+    border: 0px solid white;
+}
+
+div.img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*闪光灯 */
+#photo1{width: 1215px;
+    margin: 0px;
+    padding: 0px}
+
+/*页头图片窗口*/
+#photo1 {
+
+    animation: switch 10s ease-out infinite;
+}
+
+#photo1 > img {
+    float: left;
+    width: 330px;
+    height: 255px;
+    position: -webkit-sticky;
+    top: 1650px;
+    left: 1040px;
+    margin: 0px;
+
+}
+
+@keyframes one {
+    0%{opacity: 0}
+    20%{opacity: 100}
+    40%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes two {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 100}
+    60%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes three {
+    0%{opacity: 0}
+    40%{opacity: 0}
+    60%{opacity: 100}
+    80%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes frou {
+    0%{opacity: 0}
+    60%{opacity: 0}
+    80%{opacity: 100}
+    100%{opacity: 0}
+}
+
+
+
+
+
+#a1,#b1,#c1,#d1 {
+    font-size: 100px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+#a1{animation: one 9s infinite;}
+#b1{animation: two 9s infinite;}
+#c1{animation: three 9s infinite;}
+#d1{animation: frou 9s infinite;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{width: 100%;
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 1px;
+}

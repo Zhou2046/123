@@ -1,0 +1,88 @@
+body{margin:0;
+    padding:0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {float: left;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {background-color: #111;}
+
+#beijing{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(white,mediumseagreen);
+}
+
+.D1{display: inline-block;
+    background-color: white;
+    width: 80%;
+
+    border: 25px solid gainsboro;
+    padding: 25px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+/* 图片属性*/
+.D1 div{width: 300px;
+        height: 300px;
+        float: left;
+        margin-left: 100px;}
+
+.D1 div img{display: block;
+            width: 300px;}
+
+
+
+h4,p{text-align: left;
+    text-indent: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{width: 100%;
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
